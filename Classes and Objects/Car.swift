@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Car.swift
 //  Classes and Objects
 //
 //  Created by Marco Grier on 8/6/17.
@@ -7,6 +7,3 @@
 //
 
 import Foundation
-
-
-
