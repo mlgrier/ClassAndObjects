@@ -32,5 +32,9 @@ class Car {
         self.init()
         color = customerChosenColor
     }
+    //When a func is inside of a class its a method
+    func drive() {
+        print("car is moving")
+    }
     
 }

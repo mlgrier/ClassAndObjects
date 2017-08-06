@@ -12,11 +12,12 @@ let myCar = Car()
 
 let someRichGuysCar = Car(customerChosenColor: "Orange")
 
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
+let mySelfDrivingCar = SelfDrivingCar()
 
-print(someRichGuysCar.color)
-print(someRichGuysCar.numberOfSeats)
-print(someRichGuysCar.typeOfCar)
+myCar.drive()
+
+mySelfDrivingCar.drive()
+
+print(mySelfDrivingCar.color)
+
 
